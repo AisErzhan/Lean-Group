@@ -1,0 +1,28 @@
+.news{
+    padding-bottom: 41px;
+    .title{
+        margin-bottom: 32px;
+    }
+    .row{
+        gap: 80px;
+    }
+    &__item{
+        width: 319px;
+        &-first{
+            width: 436px;
+        }
+    }
+    &__img{
+        margin-bottom: 24px;
+    }
+    &__date{
+        @include font(500, 13px, 13px);
+        color: #919399;
+        margin-bottom: 8px
+    }
+    &__description{ 
+        @include font(500, 16px, 24px);
+        color: #2C2D2E;
+        margin-bottom: 60px
+    }
+}

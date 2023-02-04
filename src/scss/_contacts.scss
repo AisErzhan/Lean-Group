@@ -1,0 +1,49 @@
+.contacts{
+    padding: 40px 0 44px;
+    background: rgba(0, 16, 61, 0.06);
+    .title{
+        margin-bottom: 32px;
+    }
+    .col-3{
+        position: relative;
+        &::before{
+            content: '';
+            // top: 50%;
+            // transform: translateY(-50%);
+            position: absolute;
+            height: 295px;
+            width: .9px;
+            background-color: #BFC1C7;
+            left: -17px;
+        }
+        &:first-child{
+            &::before{
+                display: none;
+            }
+        }
+    }
+    &__item{
+        &-title{
+            @include font(500, 16px, 24px);
+            color: #2C2D2E;
+            margin-bottom: 24px;
+        }
+        &-phone{
+           @include contactsItem();
+           max-height: 20px;
+        }
+        &-email{
+            @include contactsItem();
+            max-height: 20px;
+            &-title{
+                margin-top: 64px;
+            }
+        }
+        &-address{
+            @include contactsItem();
+            &-title{
+                margin-top: 64px;
+            }
+        }
+    }
+}

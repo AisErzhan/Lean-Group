@@ -1,0 +1,80 @@
+.home {
+    .nested {
+      display: flex;
+      flex-direction: row;
+      position: absolute;
+      top: 32px;
+      left: 116px;
+      &__link {
+        @include font(500, 13px, 13px);
+        color: #919399;
+        &_active {
+          color: #ef7c00;
+        }
+      }
+    }
+  }
+  .other {
+    padding: 56px 0 56px;
+    .row {
+      gap: 30px;
+    }
+    .title {
+      text-align: start;
+      margin-bottom: 20px;
+    }
+    &__item {
+      max-width: 668px;
+      color: #2c2d2e;
+      &-description {
+        @include font(400, 15px, 20px);
+        min-width: 668px;
+        margin-bottom: 24px;
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+      &-info {
+        padding-left: 20px;
+        &-title {
+          position: relative;
+          @include font(500, 16px, 24px);
+          margin-bottom: 24px;
+          &::before {
+            position: absolute;
+            content: "";
+            background: url("../../../images/pages-laminate/list-point.png");
+            width: 15px;
+            height: 15px;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+        }
+      }
+    }
+    &__slider {
+      max-width: 40%;
+      margin-top: -60px;
+      &-img {
+        max-height: 479px;
+        object-fit: contain;
+      }
+    }
+    .owl-theme .owl-dots {
+      margin-top: 11px;
+    }
+    .owl-theme .owl-dots .owl-dot span {
+      background: none;
+      border: 1px solid #ef7c00;
+    }
+    .owl-theme .owl-dots .owl-dot.active span,
+    .owl-theme .owl-dots .owl-dot:hover span {
+      background: #ef7c00;
+      border: none;
+    }
+  }
+  .feedback {
+    margin-bottom: 80px;
+  }
+  

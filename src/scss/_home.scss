@@ -1,0 +1,72 @@
+.home {
+    position: relative;
+  color: #2c2d2e;
+  &__title {
+    @include font(500, 13px, 13px);
+    margin-bottom: 16px;
+    max-width: 290px;
+  }
+  &__subtitle {
+    @include font(600, 32px, 40px);
+    margin-bottom: 17px;
+  }
+  &__description {
+    @include font(400, 15px, 20px);
+    max-width: 582px;
+    margin-bottom: 16px;
+  }
+  &__link {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ef7c00;
+    border-radius: 4px;
+    color: #ffffff;
+    border: 1px solid transparent;
+    transition: .5s;
+    &:hover{
+      color: #EF7C00;
+      border: 1px solid #EF7C00;
+      background-color: #ffffff;
+    }
+  }
+  &__bg {
+    padding: 162px 0 152px;
+    &-first {
+      background: url("../images/home/bg1.jpg") center/cover;
+    }
+    &-second {
+      background: url("../images/home/bg2.jpg") center/cover;
+    }
+    &-third {
+      background: url("../images/home/bg3.jpg") center/cover;
+    }
+  }
+  .social{
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    right: 63px;
+    top: 207px;
+    height: 113px;
+    width: 22.3px;
+  }
+ .owl-carousel .owl-item img{
+    width: auto;
+    height: auto;
+  }
+  .owl-theme .owl-dots{
+    position: absolute;
+    left: 116px;
+    bottom: 40px;
+  }
+  .owl-theme .owl-dots .owl-dot span {
+    background: none;
+    border: 1px solid #EF7C00;
+}
+  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #EF7C00;
+    border: none;
+  }
+}

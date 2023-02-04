@@ -1,0 +1,17 @@
+.contacts{
+    position: relative;
+    .nested {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 32px;
+        left: 116px;
+        &__link {
+          @include font(500, 13px, 13px);
+          color: #919399;
+          &_active {
+            color: #ef7c00;
+          }
+        }
+      }
+}

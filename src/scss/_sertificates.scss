@@ -1,0 +1,40 @@
+.sertificates{ 
+    position: relative;
+    .title{
+        margin-bottom: 30px;
+    }
+    .owl-nav{
+        display: flex;
+        position: absolute;
+        font-size: 0;
+        cursor: pointer;
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .custom-prev{
+        position: absolute;
+        left: 59px;
+        width: 27px;
+        height: 50px;
+        background: url('/images/sertificates/left-arrow.png');
+    }
+    .custom-next{
+        position: absolute;
+        width: 27px;
+        height: 50px;
+        right: 59px;
+        background: url('/images/sertificates/right-arrow.png');
+    }
+    .owl-theme .owl-dots{
+        margin-top: 11px;
+      }
+    .owl-theme .owl-dots .owl-dot span {
+        background: none;
+        border: 1px solid #EF7C00;
+    }
+      .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+        background: #EF7C00;
+        border: none;
+      }
+}

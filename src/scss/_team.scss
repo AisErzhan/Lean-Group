@@ -1,0 +1,57 @@
+.team{   
+     padding: 80px 0;
+    .title{
+        margin-bottom: 32px;
+    }
+    .row{
+        gap: 70px;
+    }
+    &__item{
+        text-align: center;
+        width: 20%;
+        max-width: 203px;
+        &-img{
+            margin-bottom: 12px;
+        }
+        &-title{
+            @include font(500, 15px, 20px);
+            color: #2C2D2E;
+            margin-bottom: 4px;
+            min-width: 203px;
+        }
+        &-subtitle{
+            @include font(500, 13px, 13px);
+            color: #919399;
+            margin-bottom: 16px;
+        }
+        &-phone{
+            @include font(500, 13px, 13px);
+            color: #2C2D2E;
+            margin-bottom: 8px;
+        }
+        &-phone-second{
+            @include font(500, 13px, 13px);
+            color: #2C2D2E;
+            margin-bottom: 8px;
+        }
+        &-email{
+            @include font(500, 13px, 13px);
+            color: #2C2D2E;
+            margin-bottom: 52px;
+        }
+    }
+    &__link{
+        display: inline-block;
+        padding: 10px 20px;
+        color: #EF7C00;
+        border: 1px solid #EF7C00;
+        background-color: #ffffff;
+        border-radius: 4px;
+        transition: .5s;
+        &:hover{
+            color: #ffffff;
+            background-color: #EF7C00;
+            border: 1px solid transparent;
+        }
+    }
+}

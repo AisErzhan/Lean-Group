@@ -1,0 +1,74 @@
+.products {
+  position: relative;
+  padding: 109px 0 168px;
+  &__tabs-link {
+    display: inline-block;
+    padding: 12px 20px;
+    color: #ef7c00;
+    border: 1px solid #ef7c00;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin-top: 48px;
+    &:hover {
+      color: #ffffff;
+      background-color: #ef7c00;
+      border: 1px solid transparent;
+    }
+  }
+  .products-tabs__caption {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 32px 0 48px;
+  }
+  .products-tabs__btn {
+    @include font(500, 13px, 13px);
+    color: #ef7c00;
+    padding: 12px 20px;
+    border: 1px solid grey;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+    &:hover {
+      color: #ffffff;
+      border: 1px solid transparent;
+      background-color: #ef7c00;
+    }
+    &_active {
+      color: #ffffff;
+      border: 1px solid transparent;
+      background-color: #ef7c00;
+    }
+  }
+  .products-tabs__content {
+    display: none;
+    &_active {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  .owl-nav {
+    display: flex;
+    position: absolute;
+    font-size: 0;
+    cursor: pointer;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  @mixin sliderbtn($bgImg) {
+    position: absolute;
+    width: 27px;
+    height: 50px;
+    background: url($bgImg);
+  }
+  .custom-prev-prod {
+    @include sliderbtn("/images/sertificates/left-arrow.png");
+    left: 59px;
+  }
+  .custom-next-prod {
+    @include sliderbtn("/images/sertificates/right-arrow.png");
+    right: 59px;
+  }
+}

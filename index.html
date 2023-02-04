@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/libs/btsrp/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./src/libs/owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./src/libs/owl/owl.theme.default.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
+    <title>Lean Group</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <div class="nav">
+          <a href="#"
+            ><img src="./images/logo.png" alt="logo of the Lean Group"
+          /></a>
+          <ul class="nav__list">
+            <li class="nav__list-item">
+              <a href="#" class="nav__list-link">Продукция</a>
+              <div class="dropdown">
+                <a href="./src/pages/laminate/laminate.html" target="_blank" class="dropdown__item">Ламинатные тубы</a>
+                <a href="./src/pages/ext/ext.html" target="_blank" class="dropdown__item">Экструзионные тубы</a>
+                <a href="./src/pages/other/other.html" target="_blank" class="dropdown__item">Другая упаковка</a>
+              </div>
+            </li>
+            <li class="nav__list-item">
+              <a href="#sert" class="nav__list-link">Сертификаты</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="./src/pages/team/team.html" target="_blank" class="nav__list-link">Наша команда</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="./src/pages/about/about.html" target="_blank" class="nav__list-link">О нас</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#news" class="nav__list-link">Новости</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="./src/pages/team/team.html#job" target="_blank" class="nav__list-link">Вакансии</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="./src/pages/contacts/contacts.html" target="_blank" class="nav__list-link">Контакты</a>
+            </li>
+          </ul>
+          <div class="burger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+        
+            <ul class="menu__box">
+              <li><a class="menu__item" href="#ext">Продукция</a></li>
+              <li><a class="menu__item" href="src/pages/mobile/laminate/lamMobile.html">Ламинатные тубы</a></li>
+              <li><a class="menu__item" href="#sert">Сертификаты</a></li>
+              <li><a class="menu__item" href="#team">Наша команда</a></li>
+              <li><a class="menu__item" href="#about">О нас</a></li>
+              <li><a class="menu__item" href="#news">Новости</a></li>
+              <li><a class="menu__item" href="#">Вакансии</a></li>
+              <li><a class="menu__item" href="#cont">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="lang">
+            <button class="lang__item lang__item_active">RU</button>
+            <button class="lang__item">EN</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="home">
+        <div class="owl-carousel owl-theme owl-loaded" id="home__slider">
+          <div class="owl-stage-outer" >
+            <div class="owl-stage">
+              <div class="owl-item" id="laminate">
+                <div class="home__bg home__bg-first">
+                  <div class="container">
+                    <h1 class="home__title">LEANGROUP - тубы и этикетки</h1>
+                    <h2 class="home__subtitle">Ламинатные тубы</h2>
+                    <p class="home__description">
+                      Используются для производства зубных паст. Широко
+                      применяются в сегменте косметики, пищевой индустрии,
+                      парафармацевтике, бытовой химии и DIY (Do-it-Yourself).
+                    </p>
+                    <a class="home__link" href="./src/pages/laminate/laminate.html" target="_blank"> Каталог</a>
+                  </div>
+                  <div class="social">
+                    <a class="social__link" href="#"
+                      ><img
+                        class="social-img social-img1"
+                        src="./images/home/vk.png"
+                        alt=""
+                    /></a>
+                    <a class="social__link" href="#"
+                      ><img
+                        class="social-img social-img2"
+                        src="./images/home/fb.png"
+                        alt=""
+                    /></a>
+                    <a class="social__link" href="#"
+                      ><img
+                        class="social-img social-img3"
+                        src="./images/home/linkedin.png"
+                        alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-item" id="ext">
+                <div class="home__bg home__bg-second">
+                  <div class="container" >
+                    <h2 class="home__title">
+                      LEANGROUP - у качества нет конкуренции
+                    </h2>
+                    <h2 class="home__subtitle">Экструзионнные тубы</h2>
+                    <p class="home__description">
+                      Экструзионные тубы применяются для упаковки и продвижения
+                      более дорогих продуктов, в основном в косметической
+                      отрасли.
+                    </p>
+                    <a class="home__link" href="./src/pages/ext/ext.html" target="_blank">Каталог</a>
+                  </div>
+                  <div class="social">
+                    <a class="social__link" href="#"
+                      ><img
+                        class="social-img social-img1"
+                        src="./images/home/vk.png"
+                        alt=""
+                    /></a>
+                    <a class="social__link" href="#"
+                      ><img
+                        class="social-img social-img2"
+                        src="./images/home/fb.png"
+                        alt=""
+                    /></a>
+                    <a class="social__link" href="#"
+                      ><img
+                        class="social-img social-img3"
+                        src="./images/home/linkedin.png"
+                        alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-item" id="other">
+                <div class="home__bg home__bg-third">
+                  <div class="container" >
+                    <h2 class="home__title">
+                      LEANGROUP - у качества нет конкуренции
+                    </h2>
+                    <h2 class="home__subtitle">Другая упаковка</h2>
+                    <p class="home__description">
+                      Широко применяются в сегменте косметики, пищевой
+                      индустрии, парафармацевтике, бытовой химии и DIY
+                      (Do-it-Yourself).
+                    </p>
+                    <a class="home__link" href="./src/pages/other/other.html" target="_blank">Каталог </a>
+                  </div>
+                  <div class="social">
+                    <a class="social__link" href="#"
+                      ><img
+                        class="social-img social-img1"
+                        src="./images/home/vk.png"
+                        alt=""
+                    /></a>
+                    <a class="social__link" href="#"
+                      ><img
+                        class="social-img social-img2"
+                        src="./images/home/fb.png"
+                        alt=""
+                    /></a>
+                    <a class="social__link" href="#"
+                      ><img
+                        class="social-img social-img3"
+                        src="./images/home/linkedin.png"
+                        alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="container">
+          <h2 class="title">О компании <span>LEANGROUP</span></h2>
+          <div class="row">
+            <div class="about__item">
+              <a
+                href="https://youtu.be/jyfXBLNJDV0"
+                data-fancybox="video"
+                data-caption="Optional caption"
+              >
+                <img
+                  src="./images/about/video.png"
+                  width="550px"
+                  height="300px"
+                  alt="video about company"
+                />
+              </a>
+            </div>
+            <div class="col-6">
+              <div class="about__text">
+                <p class="about__description">
+                  Компания ООО «ЛеанГрупп» начала свою деятельность в 1999 году
+                  и на сегодняшний день является ведущей компанией по
+                  производству ламинатных и экструзионных туб.
+                </p>
+                <p class="about__description">
+                  Имея две технологии – для производства ламинатных и
+                  экструзионных туб, мы предлагаем вам широкий спектр
+                  возможностей. Большим преимуществом является собственный
+                  печатный цех в ламинате и in-line печать в экструзии с
+                  возможностью различных дополнительных опций декора. Особое
+                  внимание уделяется работе с поставщиками для контроля и
+                  поддержания качества производимой нами продукции.
+                </p>
+                <p class="about__description">
+                  С января 2018 года компания стала членом Европейской
+                  Ассоциации производителей туб (ETMA), что подтверждает сильную
+                  позицию бренда и на рынке Европы.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sertificates" id="sert">
+        <div class="container">
+          <h2 class="title">
+            Качество продукции подтверждают <span>сертификаты</span>
+          </h2>
+          <div
+            class="owl-carousel owl-theme owl-loaded"
+            id="sertificates__slider"
+          >
+            <div class="owl-stage-outer">
+              <div class="owl-stage">
+                <div class="owl-item">
+                  <a
+                    href="./images/sertificates/ser1.png"
+                    data-fancybox="gallery"
+                    data-caption="Настоящий сертификат"
+                    ><img src="./images/sertificates/ser1.png" alt="" />
+                  </a>
+                </div>
+                <div class="owl-item">
+                  <a
+                    href="./images/sertificates/ser2.png"
+                    data-fancybox="gallery"
+                    data-caption="Настоящий сертификат"
+                    ><img src="./images/sertificates/ser2.png" alt="" />
+                  </a>
+                </div>
+                <div class="owl-item">
+                  <a
+                    href="./images/sertificates/ser3.png"
+                    data-fancybox="gallery"
+                    data-caption="Настоящий сертификат"
+                    ><img src="./images/sertificates/ser3.png" alt="" />
+                  </a>
+                </div>
+                <div class="owl-item">
+                  <a
+                    href="./images/sertificates/ser4.png"
+                    data-fancybox="gallery"
+                    data-caption="Настоящий сертификат"
+                    ><img src="./images/sertificates/ser4.png" alt="" />
+                  </a>
+                </div>
+                <div class="owl-item">
+                  <a
+                    href="./images/sertificates/ser5.png"
+                    data-fancybox="gallery"
+                    data-caption="Настоящий сертификат"
+                    ><img src="./images/sertificates/ser5.png" alt="" />
+                  </a>
+                </div>
+                <div class="owl-item">
+                  <a
+                    href="./images/sertificates/ser1.png"
+                    data-fancybox="gallery"
+                    data-caption="Настоящий сертификат"
+                    ><img src="./images/sertificates/ser1.png" alt="" />
+                  </a>
+                </div>
+                <div class="owl-item">
+                  <a
+                    href="./images/sertificates/ser2.png"
+                    data-fancybox="gallery"
+                    data-caption="Настоящий сертификат"
+                    ><img src="./images/sertificates/ser2.png" alt="" />
+                  </a>
+                </div>
+                <div class="owl-item">
+                  <a
+                    href="./images/sertificates/ser3.png"
+                    data-fancybox="gallery"
+                    data-caption="Настоящий сертификат"
+                    ><img src="./images/sertificates/ser3.png" alt="" />
+                  </a>
+                </div>
+                <div class="owl-item">
+                  <a
+                    href="./images/sertificates/ser4.png"
+                    data-fancybox="gallery"
+                    data-caption="Настоящий сертификат"
+                    ><img src="./images/sertificates/ser4.png" alt="" />
+                  </a>
+                </div>
+                <div class="owl-item">
+                  <a
+                    href="./images/sertificates/ser5.png"
+                    data-fancybox="gallery"
+                    data-caption="Настоящий сертификат"
+                    ><img src="./images/sertificates/ser5.png" alt="" />
+                  </a>
+                </div>
+
+                <div class="owl-item">
+                  <a
+                    href="./images/sertificates/ser1.png"
+                    data-fancybox="gallery"
+                    data-caption="Настоящий сертификат"
+                    ><img src="./images/sertificates/ser1.png" alt="" />
+                  </a>
+                </div>
+                <div class="owl-item">
+                  <a
+                    href="./images/sertificates/ser2.png"
+                    data-fancybox="gallery"
+                    data-caption="Настоящий сертификат"
+                    ><img src="./images/sertificates/ser2.png" alt="" />
+                  </a>
+                </div>
+                <div class="owl-item">
+                  <a
+                    href="./images/sertificates/ser3.png"
+                    data-fancybox="gallery"
+                    data-caption="Настоящий сертификат"
+                    ><img src="./images/sertificates/ser3.png" alt="" />
+                  </a>
+                </div>
+                <div class="owl-item">
+                  <a
+                    href="./images/sertificates/ser4.png"
+                    data-fancybox="gallery"
+                    data-caption="Настоящий сертификат"
+                    ><img src="./images/sertificates/ser4.png" alt="" />
+                  </a>
+                </div>
+                <div class="owl-item">
+                  <a
+                    href="./images/sertificates/ser5.png"
+                    data-fancybox="gallery"
+                    data-caption="Настоящий сертификат"
+                    ><img src="./images/sertificates/ser5.png" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="owl-nav">
+          <div class="custom-prev">prev</div>
+          <div class="custom-next">next</div>
+        </div>
+      </section>
+      <section class="products">
+        <div class="container">
+          <h2 class="title">Наша <span>продукция</span></h2>
+          <div class="products-tabs">
+            <ul class="products-tabs__caption">
+              <li class="products-tabs__btn products-tabs__btn_active">Ламинатные тубы</li>
+              <li class="products-tabs__btn">Экструзионные тубы</li>
+              <li class="products-tabs__btn">Другая упаковка</li>
+            </ul>
+            <div class="products-tabs__content products-tabs__content_active">
+              <div class="owl-carousel owl-theme owl-loaded products__slider">
+            <div class="owl-stage-outer">
+              <div class="owl-stage">
+                <div class="owl-item">
+                  <a
+                    href="./images/products/product3.png"
+                    data-fancybox="gallery"
+                    data-caption=""
+                    ><img src="./images/products/product3.png" alt="" />
+                  </a>
+                </div>
+                <div class="owl-item">
+                  <a
+                    href="./images/products/product4.png"
+                    data-fancybox="gallery"
+                    data-caption=""
+                    ><img src="./images/products/product4.png" alt="" />
+                  </a>
+                </div>
+                <div class="owl-item">
+                  <a
+                    href="./images/products/product5.png"
+                    data-fancybox="gallery"
+                    data-caption=""
+                    ><img src="./images/products/product5.png" alt="" />
+                  </a>
+                </div>
+                <div class="owl-item">
+                  <a
+                    href="./images/products/product2.png"
+                    data-fancybox="gallery"
+                    data-caption=""
+                    ><img src="./images/products/product2.png" alt="" />
+                  </a>
+                </div>
+                <div class="owl-item">
+                  <a
+                    href="./images/products/product1.png"
+                    data-fancybox="gallery"
+                    data-caption=""
+                    ><img src="./images/products/product1.png" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="link__wrapper">
+              <a class="products__tabs-link" href="./src/pages/laminate/laminate.html" target="_blank">Перейти в каталог</a>
+            </div>
+          </div>
+            </div>
+            <div class="products-tabs__content ">
+              <div class="owl-carousel owl-theme owl-loaded products__slider">
+            <div class="owl-stage-outer">
+              <div class="owl-stage">
+                <div class="owl-item">
+                  <a
+                    href="./images/products/product1.png"
+                    data-fancybox="gallery"
+                    data-caption=""
+                    ><img src="./images/products/product1.png" alt="" />
+                  </a>
+                </div>
+                <div class="owl-item">
+                  <a
+                    href="./images/products/product2.png"
+                    data-fancybox="gallery"
+                    data-caption=""
+                    ><img src="./images/products/product2.png" alt="" />
+                  </a>
+                </div>
+                <div class="owl-item">
+                  <a
+                    href="./images/products/product3.png"
+                    data-fancybox="gallery"
+                    data-caption=""
+                    ><img src="./images/products/product3.png" alt="" />
+                  </a>
+                </div>
+                <div class="owl-item">
+                  <a
+                    href="./images/products/product4.png"
+                    data-fancybox="gallery"
+                    data-caption=""
+                    ><img src="./images/products/product4.png" alt="" />
+                  </a>
+                </div>
+                <div class="owl-item">
+                  <a
+                    href="./images/products/product5.png"
+                    data-fancybox="gallery"
+                    data-caption=""
+                    ><img src="./images/products/product5.png" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="link__wrapper">
+              <a class="products__tabs-link" href="./src/pages/ext/ext.html" target="_blank">Перейти в каталог</a>
+            </div>
+          </div>
+            </div>
+            <div class="products-tabs__content ">
+              <div class="owl-carousel owl-theme owl-loaded products__slider" >
+            <div class="owl-stage-outer">
+              <div class="owl-stage">
+                <div class="owl-item">
+                  <a
+                    href="./images/products/product1.png"
+                    data-fancybox="gallery"
+                    data-caption=""
+                    ><img src="./images/products/product1.png" alt="" />
+                  </a>
+                </div>
+                <div class="owl-item">
+                  <a
+                    href="./images/products/product3.png"
+                    data-fancybox="gallery"
+                    data-caption=""
+                    ><img src="./images/products/product3.png" alt="" />
+                  </a>
+                </div>
+                <div class="owl-item">
+                  <a
+                    href="./images/products/product2.png"
+                    data-fancybox="gallery"
+                    data-caption=""
+                    ><img src="./images/products/product2.png" alt="" />
+                  </a>
+                </div>
+                <div class="owl-item">
+                  <a
+                    href="./images/products/product4.png"
+                    data-fancybox="gallery"
+                    data-caption=""
+                    ><img src="./images/products/product4.png" alt="" />
+                  </a>
+                </div>
+                <div class="owl-item">
+                  <a
+                    href="./images/products/product5.png"
+                    data-fancybox="gallery"
+                    data-caption=""
+                    ><img src="./images/products/product5.png" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="link__wrapper">
+              <a class="products__tabs-link" href="./src/pages/other/other.html" target="_blank">Перейти в каталог</a>
+            </div>
+          </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="owl-nav">
+          <div class="custom-prev-prod">prev</div>
+          <div class="custom-next-prod">next</div>
+        </div>
+      </section>
+      <section class="feedback">
+        <div class="container">
+          <div class="feedback__block">
+            <h2 class="title">Получить подробную <span>информацию</span></h2>
+            <p class="feedback__subtitle">Просто заполните форму, наш менеджер свяжется с вами в ближайшее время</p>
+            <form class="feedback__wrapper" action="">
+              <div class="feedback__wrapper-text">
+                <input class="feedback__wrapper-input" type="text" placeholder="Ваше имя">
+              </div>
+              <div class="feedback__wrapper-tel"><input class="feedback__wrapper-input" type="tel" placeholder="+375 (29) 0000000"></div>
+            </form>
+            <textarea placeholder="Комментарий"></textarea>
+            <div class="feedback__wrapper-link">
+              <a class="feedback__link" href="#">Получить информацию</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="team" id="team">
+        <div class="container">
+          <h2 class="title">Наша <span>команда</span></h2>
+          <div class="row">
+            <div class="team__item">
+              <img class="team__item-img" src="./images/team/darya-v.png" alt="Войнич Дарья">
+              <div class="team__item-title">Войнич Дарья</div>
+              <div class="team__item-subtitle">Заместитель директора по продажам</div>
+              <div class="team__item-phone">+375 (17) 270-53-77 (317)</div>
+              <div class="team__item-phone-second"></div>
+              <div class="team__item-email"></div>
+            </div>
+            <div class="team__item">
+              <img class="team__item-img" src="./images/team/ekateryna-m.png" alt="Мисько Екатерина">
+              <div class="team__item-title">Мисько Екатерина</div>
+              <div class="team__item-subtitle">Начальник отдела сопровождения</div>
+              <div class="team__item-phone">+375 (17) 270-53-77 (115)</div>
+              <div class="team__item-phone-second"> +375 29 112-73-48</div>
+              <div class="team__item-email">k.melnichenko@leangroup.by</div>
+            </div>
+            <div class="team__item">
+              <img class="team__item-img" src="./images/team/dmytryi-d.png" alt="Дмитроченко Дмитрий">
+              <div class="team__item-title">Дмитроченко Дмитрий</div>
+              <div class="team__item-subtitle">Начальник отдела допечатной подготовки</div>
+              <div class="team__item-phone">+375 (17) 270-53-77 (333)</div>
+              <div class="team__item-phone-second"> +375 29 360-32-26</div>
+              <div class="team__item-email">dmitrochenko@leangroup.by</div>
+            </div>
+            <div class="team__item">
+              <img class="team__item-img" src="./images/team/evgenyi-a.png" alt="Антух Евгений">
+              <div class="team__item-title">Антух Евгений</div>
+              <div class="team__item-subtitle">Начальник отдела снабжения</div>
+              <div class="team__item-phone">+375 (17) 270-53-77 (148)</div>
+              <div class="team__item-phone-second"> +375 44 764-16-28</div>
+              <div class="team__item-email">j.antuh@leangroup.by</div>
+            </div>
+            <div class="team__item">
+              <img class="team__item-img" src="./images/team/elena-m.png" alt="Мисник Елена">
+              <div class="team__item-title">Мисник Елена</div>
+              <div class="team__item-subtitle">Специалист по работе с клиентами</div>
+              <div class="team__item-phone">+375 (17) 270-53-77 (322)</div>
+              <div class="team__item-phone-second"> +375 29 329-34-03</div>
+              <div class="team__item-email">e.misnik@leangroup.by</div>
+            </div>
+          </div>
+        </div>
+        <div class="link__wrapper">
+          <a class="team__link" href="./src/pages/team/team.html" target="_blank">Наша команда</a>
+        </div>
+      </section>
+      <section class="news" id="news">
+        <div class="container">
+          <div class="title">Новости</div>
+          <div class="row">
+            <div class="news__item news__item-first">
+              <img class="news__img" src="./images/news/news1.png" alt="">
+              <div class="news__date">28.01.2022</div>
+              <div class="news__description">"ЛеанГрупп" серебряный призер EcoVadis!</div>
+            </div>
+            <div class="news__item">
+              <img class="news__img" src="./images/news/news3.png" alt="">
+              <div class="news__date">21.01.2022</div>
+              <div class="news__description">"ЛеанГрупп" серебряный призер EcoVadis!</div>
+            </div>
+            <div class="news__item">
+              <img class="news__img" src="./images/news/news3.png" alt="">
+              <div class="news__date">16.12.2021</div>
+              <div class="news__description">Туба, как вид упаковки</div>
+            </div>
+          </div>
+          <div class="link__wrapper">
+            <a class="team__link" href="#">Все новости</a>
+          </div>
+        </div>
+      </section>
+      <section class="contacts" id="cont">
+        <div class="container">
+          <h2 class="title">Контакты</h2>
+          <div class="row">
+            <div class="col-3">
+              <div class="contacts__item">
+                <div class="contacts__item-title">Беларусь</div>
+                <ul class="contacts__item-phone">
+                  <li class="contacts__item-phone-title">Телефон</li>
+                  <li class="contacts__item-phone">+375 (17) 270 53 77</li>
+                  <li class="contacts__item-phone">+375 (17) 270 53 78 (ф)</li>
+                </ul>
+                <ul class="contacts__item-email">
+                  <li class="contacts__item-email-title">Email</li>
+                  <li class="contacts__item-email">info@leangroup.by</li>
+                  <li class="contacts__item-email">zakaz@leangroup.by</li>
+                </ul>
+                <ul class="contacts__item-address">
+                  <li class="contacts__item-address-title">Адрес</li>
+                  <li class="contacts__item-address">ул. Промышленная, д.25А, 220075, г. Минск, Беларусь</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="contacts__item">
+                <div class="contacts__item-title">Москва</div>
+                <ul class="contacts__item-phone">
+                  <li class="contacts__item-phone-title">Телефон</li>
+                  <li class="contacts__item-phone">+7 (495) 280 73 44</li>
+                  <li class="contacts__item-phone">+7 (495) 280 73 44 (ф)</li>
+                </ul>
+                <ul class="contacts__item-email">
+                  <li class="contacts__item-email-title">Email</li>
+                  <li class="contacts__item-email">mosoffice@leangroup.by</li>
+                  <li class="contacts__item-email"></li>
+                </ul>
+                <ul class="contacts__item-address">
+                  <li class="contacts__item-address-title">Адрес</li>
+                  <li class="contacts__item-address">Волоколамское шоссе, 89, офис 516, 125371, г. Москва, Российская Федерация</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="contacts__item">
+                <div class="contacts__item-title">Екатеринбург</div>
+                <ul class="contacts__item-phone">
+                  <li class="contacts__item-phone-title">Телефон</li>
+                  <li class="contacts__item-phone">+7 (343) 346 82 06</li>
+                  <li class="contacts__item-phone"></li>
+                </ul>
+                <ul class="contacts__item-email">
+                  <li class="contacts__item-email-title">Email</li>
+                  <li class="contacts__item-email">omts-lgu@leangroup.by</li>
+                  <li class="contacts__item-email"></li>
+                </ul>
+                <ul class="contacts__item-address">
+                  <li class="contacts__item-address-title">Адрес</li>
+                  <li class="contacts__item-address">ул. Суходольская, д.197, офис 303, 620085, г. Екатеринбург, Российская Федерация</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="contacts__item">
+                <div class="contacts__item-title">Европа</div>
+                <ul class="contacts__item-phone">
+                  <li class="contacts__item-phone-title">Телефон</li>
+                  <li class="contacts__item-phone">+48 73 1111 044</li>
+                  <li class="contacts__item-phone"></li>
+                </ul>
+                <ul class="contacts__item-email">
+                  <li class="contacts__item-email-title">Email</li>
+                  <li class="contacts__item-email">eu@leangroup.by</li>
+                  <li class="contacts__item-email"></li>
+                </ul>
+                <ul class="contacts__item-address">
+                  <li class="contacts__item-address-title">Адрес</li>
+                  <li class="contacts__item-address">LEANGROUP EUROPE Sp.z o.o. Al.Jerozolimskie 85, office 21 02-001 Warszawa, Польша</li>
+                </ul>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <section class="map">
+        <div class="map__block">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3903.058267859953!2d74.60399370169536!3d42.87305664469714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7dcbdacf87b%3A0xfc7d686ab988f348!2z0J_Qu9C-0YnQsNC00Ywg0JDQu9CwLdCi0L7QviDQkdC40YjQutC10Lo!5e0!3m2!1sru!2skg!4v1675182941569!5m2!1sru!2skg" width="100%" height="540" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="nav">
+          <a class="nav__list" href="">
+            <img src="./images/logo.png" alt="">
+          </a>
+          <div class="nav__list">
+            <a class="nav__list-link" href="#"><img src="./images/footer/vk.png" alt="VK"></a>
+            <a class="nav__list-link" href="#"><img src="./images/footer/fb.png" alt="FaceBook"></a>
+            <a class="nav__list-link" href="#"><img src="./images/footer/linkedin.png" alt="linkedin"></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="footer__item">
+            <ul class="footer__products">
+              <li class="footer__products-title footer__item-title">Продукция</li>
+              <a class="footer__products-link footer__item-link" href="./src/pages/laminate/laminate.html" target="_blank"><li>Ламинатные тубы</li></a>
+              <a class="footer__products-link footer__item-link" href="./src/pages/ext/ext.html" target="_blank"><li>Экструзионные тубы</li></a>
+              <a class="footer__products-link footer__item-link" href="./src/pages/other/other.html" target="_blank"><li>Другая упаковка</li></a>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <ul class="footer__about">
+              <li class="footer__about-title footer__item-title">Компания</li>
+              <a class="footer__about-link footer__item-link" href="src/pages/about/about.html" target="_blank"><li>О нас</li></a>
+              <a class="footer__about-link footer__item-link" href="src/pages/team/team.html" target="_blank"><li>Наша команда</li></a>
+              <a class="footer__about-link footer__item-link" href="#sert"><li>Сертификаты</li></a>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <ul class="footer__sections">
+              <li class="footer__sections-title footer__item-title">Разделы</li>
+              <a class="footer__sections-link footer__item-link" href="./src/pages/contacts/contacts.html" target="_blank"><li>Контакты</li></a>
+              <a class="footer__sections-link footer__item-link" href="#news"><li>Новости</li></a>
+              <a class="footer__sections-link footer__item-link" href="./src/pages/team/team.html#job" target="_blank"><li>Вакансии</li></a>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <ul class="footer__item-count footer__item-count-phone">
+              <li class="footer__item-count-title">Беларусь</li>
+              <a href="tel:+375 (17) 270 53 77"><li class="footer__item-count-phone">+375 (17) 270 53 77</li></a>
+              <a href="tel:+375 (17) 270 53 78"><li class="footer__item-count-phone">+375 (17) 270 53 78</li></a>
+            </ul>
+            <ul class="footer__item-count footer__item-count-phone">
+              <li class="footer__item-count-title">Москва</li>
+              <a href="tel:+7 (495) 280 73 44"><li class="footer__item-count-phone">+7 (495) 280 73 44</li></a>
+              <a href="tel:+7 (495) 280 73 44"><li class="footer__item-count-phone">+7 (495) 280 73 44</li></a>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <ul class="footer__item-count footer__item-count-phone">
+              <li class="footer__item-count-title">Европа</li>
+              <a href="tel:+48 73 1111 044"><li class="footer__item-count-phone">+48 73 1111 044</li></a>
+              <a href=""><li class="footer__item-count-phone"></li></a>
+            </ul>
+            <ul class=" footer__item-count footer__item-count-phone">
+              <li class="footer__item-count-title">Екатеринбург</li>
+              <a href="tel:+7 (343) 346 82 06"><li class="footer__item-count-phone">+7 (343) 346 82 06</li></a>
+             <a href=""><li class="footer__item-count-phone"></li></a>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__text">© 2022 Leangroup. All Rights Reserved.
+          Разработка и продвижение сайтов SkyWeb.by</div>
+      </div>
+      <div class="footer__anchor">
+        <a class="footer__anchor-link" href="#header"></a>
+      </div>
+    </footer>
+    <script src="./src/libs/jquery/jquery.js"></script>
+    <script src="./src/libs/owl/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>

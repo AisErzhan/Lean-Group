@@ -1,0 +1,55 @@
+@mixin font($f-w, $f-s, $l-h) {
+  font-style: normal;
+  font-weight: $f-w;
+  font-size: $f-s;
+  line-height: $l-h;
+}
+@mixin inputfeedback ($bg){
+  content: '';
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: 0;
+        left: 0;
+        color: #ffffff;
+        border-right: 1px solid rgba(0, 16, 61, 0.12);
+        border-radius: 4px;
+        background: url($bg)no-repeat;
+        background-size: 14px;
+        background-position: center;
+}
+@mixin contactsItem(){
+  @include font(500, 15px, 20px);
+  margin-bottom: 4px;
+  color: #2C2D2E;
+  max-width: 260px;
+  &-title{
+      @include font(500, 13px, 13px);
+  color: #919399;
+  margin: 12px  0 8px;
+  gap: 4px;
+  }
+}
+@mixin footer{
+  &-title{
+    @include font(600, 24px, 28px);
+    margin-bottom: 24px;
+}
+&-link{
+    @include font(500, 16px, 24px);
+    margin-bottom: 12px;
+    display: inline-block;
+    width: 203px;
+    &:hover{
+        color: #EF7C00;
+    }
+}
+}
+@mixin desLine{
+  position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 16, 61, 0.12);
+    left: 0;
+}

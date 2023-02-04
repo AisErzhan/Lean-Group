@@ -1,0 +1,24 @@
+.about{
+    padding: 40px 0 104px ;
+    .title{
+        margin-bottom: 32px;
+    }
+    .row{
+        gap: 30px;
+    }
+    &__item{
+        max-width: 550px;
+    }
+    &__text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 22px;
+        max-height: 300px;
+    }
+    &__description{
+        max-width: 552px;
+        @include font(400, 15px, 20px);
+        color: #2C2D2E;
+    }
+}
