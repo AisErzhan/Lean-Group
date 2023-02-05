@@ -1828,7 +1828,8 @@ ul li {
   border: 1px solid #ef7c00;
 }
 
-#main-mobile, #header-mobile {
+#main-mobile,
+#header-mobile {
   max-width: 360px;
 }
 
@@ -1976,167 +1977,145 @@ ul li {
   border: none;
 }
 
-.our-products .title {
-  margin-bottom: 50px;
+.our-products-mob__img {
+  margin-bottom: 13px;
 }
-.our-products .row {
-  gap: 12px;
-}
-.our-products .col-12 {
-  padding: 16px 0 18px 24px;
-  background: rgba(0, 16, 61, 0.06);
+.our-products-mob .col-12 {
+  background-color: rgba(0, 16, 61, 0.06);
   border-radius: 4px;
-  display: flex;
-  flex-direction: row;
+  padding: 24px 0 16px 12px;
+  margin-bottom: 16px;
 }
-.our-products .feature {
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
+.our-products-mob .row {
+  justify-content: space-between;
 }
-.our-products .feature-title {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 13px;
-  color: #919399;
-  margin-bottom: 8px;
+.our-products-mob-description {
+  padding-top: 19px;
 }
-.our-products .feature-value {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 20px;
-  color: #2c2d2e;
-}
-.our-products .feature-value-line {
-  position: relative;
-}
-.our-products .feature-value-line::after {
-  content: "";
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  width: 178px;
-  height: 1px;
-  background-color: rgba(0, 16, 61, 0.12);
-}
-.our-products-title {
-  display: flex;
-  flex-direction: row;
-  gap: 16px;
-}
-.our-products-title-diameter {
+.our-products-mob-description-title {
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 28px;
   color: #ef7c00;
-  margin-bottom: 8px;
+  margin-bottom: 2px;
 }
-.our-products-title-type {
+.our-products-mob-description-type {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #919399;
-  padding-top: 4px;
+  margin-bottom: 39px;
+  height: 0px;
 }
-.our-products .thread__title {
+.our-products-mob-description-feature {
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
   line-height: 13px;
   color: #919399;
-  margin-bottom: 27.5px;
+  margin-bottom: 21px;
+  min-width: 77px;
 }
-.our-products .thread__type {
+.our-products-mob-description-feature-block {
+  position: relative;
+  padding-top: 26px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.our-products-mob-description-feature-block-second {
+  gap: 16px;
+}
+.our-products-mob-description-feature-block-third {
+  gap: 5px;
+}
+.our-products-mob-description-feature-block-third-2 {
+  gap: 11px;
+}
+.our-products-mob-description-feature-block-four {
+  gap: 17px;
+}
+.our-products-mob-description-feature-block-five {
+  gap: 17px;
+}
+.our-products-mob-description-feature-block-five-2 {
+  margin: 20px 0 -20px;
+  gap: 15px;
+}
+.our-products-mob-description-feature-block-img {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+  display: flex;
+  flex-direction: column;
+  color: #919399;
+  text-align: center;
+}
+.our-products-mob-description-feature-block::after {
+  content: "";
+  position: absolute;
+  width: 336px;
+  height: 1px;
+  background-color: rgba(0, 16, 61, 0.12);
+  bottom: -8px;
+  left: -127px;
+}
+.our-products-mob-description-feature-block:last-child::after {
+  display: none;
+}
+.our-products-mob-description-feature-numbers {
+  display: flex;
+  text-align: center;
+  gap: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #2c2d2e;
+  margin-bottom: 2px;
+}
+.our-products-mob-description-feature-num {
+  text-align: left;
+  width: 30px;
+}
+.our-products-mob-description-feature-first {
+  margin-bottom: 9px;
+}
+.our-products-mob-description-thread-first {
+  margin-bottom: 54px;
+}
+.our-products-mob-description-thread-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+  color: #919399;
+  margin-bottom: 4px;
+}
+.our-products-mob-description-thread-type {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #2c2d2e;
-  margin-bottom: 8px;
 }
-.our-products .thread__value {
+.our-products-mob-description-thread-size {
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 24px;
+  line-height: 20px;
   color: #919399;
-  white-space: nowrap;
+  min-width: 120px;
 }
-.our-products .thread__value-two {
-  margin-bottom: 55px;
-  position: relative;
-}
-.our-products .thread__value-two::after {
-  content: "";
-  position: absolute;
-  height: 0.8px;
-  width: 648px;
-  background-color: rgba(0, 16, 61, 0.12);
-  bottom: -24.2px;
-  left: 0;
-}
-.our-products .thread__value span {
+.our-products-mob-description-thread-size span {
+  margin-right: 8px;
   display: inline-block;
-  margin-right: 12px;
 }
-.our-products .thread__value span:last-child {
-  margin-right: 0;
-  width: 0;
-}
-.our-products .thread__item {
-  width: 36.6%;
-}
-.our-products .thread__item-block {
-  width: 64.4%;
-  display: flex;
-  align-items: flex-end;
-  gap: 18px;
-}
-.our-products .thread__item-block:last-child {
-  margin-top: 40px;
-}
-.our-products .thread__item-block-img {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  color: #919399;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 13px;
-  gap: 12px;
-}
-.our-products .thread__item-block-img-text {
-  max-width: 42px;
-}
-.our-products .thread__item-block-img-helper {
-  margin-right: 30px;
-}
-.our-products .thread__item-block-img-helper-text {
-  margin-left: -15px;
-}
-.our-products .thread__item-block-helper-1 {
-  padding-bottom: 70px;
-  margin-bottom: -40px;
-}
-.our-products .thread__item-block-helper-first {
-  margin: 25px 0 -30px 0;
-}
-.our-products .thread__item-block-helper-second {
-  margin: 30px 0 -30px 0;
-}
-.our-products .thread__flex {
-  display: flex;
-  justify-content: space-between;
-}
-.our-products .thread__flex .row {
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
+.our-products-mob .col-9 {
+  padding-left: 40px;
 }
 
 .description-mobile {
