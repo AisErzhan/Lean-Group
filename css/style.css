@@ -456,7 +456,7 @@ ul li {
 }
 .feedback__block {
   padding: 24px 20px 34px;
-  background: url("../../images/feedback/feedback-bg.png");
+  background: url("../images/feedback/feedback-bg.png");
   background-size: cover;
   width: 100%;
   filter: drop-shadow(0px 4px 32px rgba(10, 10, 10, 0.226));
@@ -502,7 +502,7 @@ ul li {
   color: #ffffff;
   border-right: 1px solid rgba(0, 16, 61, 0.12);
   border-radius: 4px;
-  background: url("../../images/feedback/text.png") no-repeat;
+  background: url("../images/feedback/text.png") no-repeat;
   background-size: 14px;
   background-position: center;
 }
@@ -519,7 +519,7 @@ ul li {
   color: #ffffff;
   border-right: 1px solid rgba(0, 16, 61, 0.12);
   border-radius: 4px;
-  background: url("../../images/feedback/phone.png") no-repeat;
+  background: url("../images/feedback/phone.png") no-repeat;
   background-size: 14px;
   background-position: center;
 }
